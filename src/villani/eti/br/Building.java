@@ -154,7 +154,7 @@ public class Building {
 				String dataset = id + "Lbp-Sub" + i;
 				RelationBuilder instanciasLBP = null;
 				try{
-					instanciasLBP = new RelationBuilder(dataset, id);
+					instanciasLBP = new RelationBuilder(dataset, id + "irma-structure");
 					for (int j = 0; j < bins; j++) instanciasLBP.defineAttribute("lbp" + j, "numeric");
 					log.write("- Saving the attributes list and including labels list from XML.");
 					instanciasLBP.saveAttributes();
@@ -218,7 +218,7 @@ public class Building {
 				String dataset = id + "Sift-Sub" + i;
 				RelationBuilder instanciasSIFT = null;
 				try{
-					instanciasSIFT = new RelationBuilder(dataset, id);
+					instanciasSIFT = new RelationBuilder(dataset, id + "irma-structure");
 					for(int j = 0; j < histoSize; j++) instanciasSIFT.defineAttribute("histSIFT" + j, "numeric");
 					log.write(" - Saving the attributes list and including the labels list from XML.");
 					instanciasSIFT.saveAttributes();
@@ -318,7 +318,7 @@ public class Building {
 				String dataset = id + "Gabor-Sub" + i;
 				RelationBuilder instanciasGabor = null;
 				try{
-					instanciasGabor = new RelationBuilder(dataset, id);
+					instanciasGabor = new RelationBuilder(dataset, id + "irma-structure");
 					for (int j = 0; j < 60; j++) instanciasGabor.defineAttribute("gabor" + j, "numeric");
 					log.write(" - Saving the attributes list and including the labels list from XML.");
 					instanciasGabor.saveAttributes();
