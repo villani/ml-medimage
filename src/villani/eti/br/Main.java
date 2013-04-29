@@ -6,6 +6,8 @@ import java.util.Calendar;
 import java.util.Scanner;
 import java.util.TreeMap;
 
+import villani.eti.br.util.*;
+
 public class Main {
 
 	public static LogBuilder log;

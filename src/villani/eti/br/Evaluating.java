@@ -35,6 +35,8 @@ import mulan.evaluation.measure.SubsetAccuracy;
 import weka.classifiers.lazy.IBk;
 import weka.classifiers.trees.RandomForest;
 
+import villani.eti.br.util.*;
+
 public class Evaluating {
 
 	public static void run(String id, LogBuilder log,

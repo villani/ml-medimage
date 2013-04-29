@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.util.TreeMap;
 import java.util.Vector;
 
+import villani.eti.br.util.*;
+
 public class Preparing {
 	
 	public static void run(String id, LogBuilder log, TreeMap<String, String> entradas){

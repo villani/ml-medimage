@@ -10,6 +10,8 @@ import mulan.data.LabelsMetaDataImpl;
 import mulan.data.MultiLabelInstances;
 import weka.core.Instances;
 
+import villani.eti.br.util.*;
+
 public class BuildingAxes {
 
 	public static void run(String id, LogBuilder log, TreeMap<String, String> entradas){

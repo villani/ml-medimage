@@ -39,6 +39,8 @@ import weka.classifiers.lazy.IBk;
 import weka.classifiers.trees.RandomForest;
 import weka.core.Instances;
 
+import villani.eti.br.util.*;
+
 public class EvaluatingAxes {
 
 	/**

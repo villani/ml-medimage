@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.TreeMap;
 
+import villani.eti.br.util.*;
+
 public class TabulatingAxes {
 
 	public static void run(String id, LogBuilder log,
